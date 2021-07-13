@@ -1,0 +1,200 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+h5{
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a ion-icon{
+    font-size: 22px;
+    color: white;
+}
+
+section{
+    padding: 120px 0;
+}
+
+.bg-ligth-grey{
+    background-color: #f5f5f5;
+}
+
+.top-margin-xs{margin-top: 15px;}
+.top-margin-sm{margin-top: 30px;}
+.top-margin-lg{margin-top: 60px !important ;}
+
+.btn{
+    font-size: 16px;
+    padding: 13px 24px;
+    min-width: 160px;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+.text-dark{
+    color: #1a1a1a;
+}
+
+.btn-light{
+    background-color: white;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: #1a1a1a;
+}
+
+.nav-link:hover{
+    color: #1a1a1a;
+}
+
+.logo-brand{
+    min-width: 40px;
+    max-width: 70px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+#hero{
+    background-image: url('../img/localkicks2.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p{
+    color: white;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+
+.btn ion-icon{
+    margin-left: 3px;
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portafolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portafolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portafolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portafolio-details h2{
+    margin-bottom: 0px;
+}
+
+.member-container{
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details{
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details span{
+    font-size: 14px;
+}
+
+.member-details ion-icon{
+    padding: 0 5px;
+
+}
+
+.portafolio-details a h2, .portafolio-details a p{
+    color: white;
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 40px;
+        line-height: normal;
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
